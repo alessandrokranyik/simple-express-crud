@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Express Server</title>
+</head>
+<body>
+  <h1>ullo im in water</h1>
+  <button id="showtype"></button>
+
+  <script>
+const members = [{
+    id: 1,
+    name: "bobby",
+    email: "bobby@gmail.com",
+    status: "active",
+  },
+  {
+    id: 2,
+    name: "dickson",
+    email: "dicky@gmail.com",
+    status: "inactive",
+  },
+  {
+    id: 3,
+    name: "swalley",
+    email: "swalley@gmail.com",
+    status: "offline",
+  },
+];
+
+    document.getElementById('showtype').addEventListener('click', showType)
+    function showType() {
+      console.log(members.filter(member.id));
+    }
+  </script>
+</body>
+</html>
